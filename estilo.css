@@ -1,37 +1,32 @@
-.tudo{
-  background-color: #7FFFD4;
+html{
+	background-color: #7FFFD4;
+	font-style: normal; 
 }
 .header{
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.menu{
+border:3px solid #FFFFF0;
+float:center;
+width: 100%;
+}
+.menu ul a{
+	font-size: 21px;
+	margin-right: 25px;
 }
 .content{
-  font-size: 25px;
-  font-style: italic; 
-  padding-top: 10px;
-  padding-bottom: 70px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 70px;
+	font-family: sans-serif;
 }
 .footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 100px;    
-  text-align: center;
-  line-height: 100px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100px;    
+	text-align: center;
+	line-height: 100px;
 }
-/*.rodapeFixo{
-  bottom: 0;
-  position: fixed;
-  width: 90%;
-  text-align: center;
-}*/
-
-  if(!$con)
-  {
-    echo "Erro ao conectar root!";
-    exit();
-  }
-  else{
-    echo "Conectado no root !";
-  }
